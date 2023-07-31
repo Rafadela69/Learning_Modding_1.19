@@ -20,7 +20,6 @@ public class ModLearning {
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
     }
-    // bla bla
     private void commonSetup(final FMLCommonSetupEvent event) {
 
     }
