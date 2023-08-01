@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "group": "nuxvarium",
+  "ingredient":{
+    "item": "modlearning:raw_nuxvarium"
+  },
+  "result": "modlearning:nuxvarium"
+}

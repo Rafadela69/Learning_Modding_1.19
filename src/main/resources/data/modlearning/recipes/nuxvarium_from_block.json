@@ -1,0 +1,12 @@
+{
+  "type" : "minecraft:crafting_shapeless",
+  "ingredients" : [
+    {
+      "item": "modlearning:nuxvarium_block"
+    }
+  ],
+  "result": {
+    "item": "modlearning:nuxvarium",
+    "count": 9
+  }
+}
