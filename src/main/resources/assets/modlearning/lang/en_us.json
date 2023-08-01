@@ -8,6 +8,8 @@
   "block.modlearning.nuxvarium_block" : "Block of Nuxvarium",
   "block.modlearning.nuxvarium_ore" : "Nuxvarium Ore",
   "block.modlearning.deepslate_nuxvarium_ore" : "Deepslate Nuxvarium Ore",
+  "block.modlearning.jumpy_block" : "Jumpy Block",
+
 
 
   "itemGroup.learningtab": "Learning Modding Tab"

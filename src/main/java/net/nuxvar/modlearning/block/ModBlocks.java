@@ -13,6 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nuxvar.modlearning.ModLearning;
 import net.minecraft.world.item.Item;
+import net.nuxvar.modlearning.block.custom.JumpyBlock;
 import net.nuxvar.modlearning.item.ModCreativeModTab;
 import net.nuxvar.modlearning.item.ModItems;
 
@@ -25,6 +26,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> NUXVARIUM_BLOCK = registerBlock("nuxvarium_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModTab.LEARNING_TAB);
+
     public static final RegistryObject<Block> NUXVARIUM_ORE = registerBlock("nuxvarium_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
@@ -33,6 +35,12 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3,7)), ModCreativeModTab.LEARNING_TAB);
+
+    public static final RegistryObject<Block> JUMPY_BLOCK = registerBlock("jumpy_block",
+            () -> new JumpyBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModTab.LEARNING_TAB);
+
+
 
 
 
