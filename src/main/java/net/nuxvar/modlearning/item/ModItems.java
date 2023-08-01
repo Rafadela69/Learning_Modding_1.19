@@ -12,6 +12,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> PEACH = ITEMS.register("peach",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.LEARNING_TAB)));
+    public static final RegistryObject<Item> NUXVARIUM = ITEMS.register("nuxvarium",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.LEARNING_TAB)));
+    public static final RegistryObject<Item> RAW_NUXVARIUM = ITEMS.register("raw_nuxvarium",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.LEARNING_TAB)));
 
 
     public static void register(IEventBus eventBus) {

@@ -1,5 +1,12 @@
 {
   "item.modlearning.peach": "Peach",
+  "item.modlearning.nuxvarium": "Nuxvarium",
+  "item.modlearning.raw_nuxvarium": "Raw Nuxvarium",
+
+  "block.modlearning.nuxvarium_block" : "Block of Nuxvarium",
+  "block.modlearning.nuxvarium_ore" : "Nuxvarium Ore",
+  "block.modlearning.deepslate_nuxvarium_ore" : "Deepslate Nuxvarium Ore",
+
 
   "itemGroup.learningtab": "Learning Modding Tab"
 }

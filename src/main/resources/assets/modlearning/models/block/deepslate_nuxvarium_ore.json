@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures" : {
+    "all" : "modlearning:block/deepslate_nuxvarium_ore"
+  }
+}

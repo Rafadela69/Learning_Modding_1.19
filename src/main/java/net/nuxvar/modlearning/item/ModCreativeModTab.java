@@ -8,7 +8,7 @@ public class ModCreativeModTab {
     public static final CreativeModeTab LEARNING_TAB = new CreativeModeTab("learningtab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.PEACH.get());
+            return new ItemStack(ModItems.NUXVARIUM.get());
         }
     };
 }
