@@ -29,6 +29,7 @@ public class JumpyBlock extends Block {
         }
         return super.use(state, level, pos, player, hand, blockHitResult);
     }
+    
     @Override
     public void stepOn(Level level, BlockPos pos, BlockState state, Entity entity) {
         if(entity instanceof LivingEntity livingEntity) {
