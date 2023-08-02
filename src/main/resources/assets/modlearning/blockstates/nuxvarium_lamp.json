@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "lit=true": { "model" :  "modlearning:block/nuxvarium_lamp_on"},
+    "lit=false": { "model" :  "modlearning:block/nuxvarium_lamp_off"}
+
+  }
+}

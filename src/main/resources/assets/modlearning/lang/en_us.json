@@ -3,12 +3,18 @@
   "item.modlearning.nuxvarium": "Nuxvarium",
   "item.modlearning.raw_nuxvarium": "Raw Nuxvarium",
   "item.modlearning.eight_ball": "Eight Ball",
+  "item.modlearning.heart": "Heart",
+  "item.modlearning.peach_seeds": "Peach Seeds",
 
 
   "block.modlearning.nuxvarium_block" : "Block of Nuxvarium",
   "block.modlearning.nuxvarium_ore" : "Nuxvarium Ore",
   "block.modlearning.deepslate_nuxvarium_ore" : "Deepslate Nuxvarium Ore",
   "block.modlearning.jumpy_block" : "Jumpy Block",
+  "block.modlearning.nuxvarium_lamp" : "Nuxvarium Lamp",
+  "block.modlearning.peach_crop" : "Peach Crop",
+
+
 
 
 

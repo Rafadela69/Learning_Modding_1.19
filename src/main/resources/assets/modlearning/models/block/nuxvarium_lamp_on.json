@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures" : {
+    "all" : "modlearning:block/nuxvarium_lamp_on"
+  }
+}

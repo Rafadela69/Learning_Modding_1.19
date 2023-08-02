@@ -4,6 +4,7 @@ import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -14,6 +15,8 @@ import net.minecraftforge.registries.RegistryObject;
 import net.nuxvar.modlearning.ModLearning;
 import net.minecraft.world.item.Item;
 import net.nuxvar.modlearning.block.custom.JumpyBlock;
+import net.nuxvar.modlearning.block.custom.NuvxariumLampBlock;
+import net.nuxvar.modlearning.block.custom.PeachCropBlock;
 import net.nuxvar.modlearning.item.ModCreativeModTab;
 import net.nuxvar.modlearning.item.ModItems;
 
@@ -39,6 +42,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> JUMPY_BLOCK = registerBlock("jumpy_block",
             () -> new JumpyBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModTab.LEARNING_TAB);
+    public static final RegistryObject<Block> NUXVARIUM_LAMP = registerBlock("nuxvarium_lamp",
+            () -> new NuvxariumLampBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()
+                    .lightLevel(state -> state.getValue(NuvxariumLampBlock.LIT) ? 15 : 0)), ModCreativeModTab.LEARNING_TAB);
+    public static final RegistryObject<Block> PEACH_CROP = BLOCKS.register("peach_crop",
+            () -> new PeachCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
+
 
 
 
